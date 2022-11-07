@@ -35,8 +35,6 @@ body {
 }
 
 
-
-
 .down {
   text-align: center;
   position: absolute;
@@ -46,21 +44,46 @@ body {
   bottom: 0;
 }
 
+.whatido,.whatdoiknow {
+  text-align: center;
+  display: inline;
+  font-family: 'Inter';
+  font-size: 50px;
+  border: solid;
+  border-width: thick;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+.whatdoiknowtext { 
+  padding-top: 30px;
+
+}
+
+
+.whatidotext {
+  padding-top: 30px;
+  
+}
+
 .content {
   font-family: Roboto Mono;
   box-shadow: 0 0 100px rgba(0,0,0,0.4);
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 60px;
   position: relative;
   background: #000;
   height: 1000px;
-  display: relative;
   top: 100vh;
-  
+   
   
 }
 
             
-        
+
+
