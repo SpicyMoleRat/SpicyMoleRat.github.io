@@ -94,12 +94,56 @@ padding-right: 20%;
   padding-top: 60px;
   position: relative;
   background: #000;
-  height:1000px;
+  height:1150px;
   top: 100vh;
    
   
 }
 
-            
+
+
+
+
+
+.burton {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -730px;;
+  margin: 50px;
+  font-family: inherit;
+
+}
+
+.fill {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 100;
+}
+
+.fill::after {
+  content: "";
+  background-color: #fdfbfb;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.fill:hover::after {
+  top: 0px;
+  left: 0px;
+}
 
 
