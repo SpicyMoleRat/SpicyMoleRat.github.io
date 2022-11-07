@@ -56,16 +56,13 @@ body {
   padding-left: 200px;
   padding-right: 200px;
 
-}
-
-.whatdoiknowtext { 
-  padding-top: 30px;
 
 }
 
 
-.whatidotext {
+.whatidotext,.whatdoiknowtext {
   padding-top: 30px;
+  margin-bottom: 60px;
   
 }
 
