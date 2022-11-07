@@ -44,25 +44,44 @@ body {
   bottom: 0;
 }
 
-.whatido,.whatdoiknow {
+.whatiwantinaworkspace {
+  padding-left:10%;
+  padding-right:10%;
+  
+}
+
+.whatdoiknow{
+  padding-left: 18%;
+  padding-right: 18%;
+
+}
+
+.whatido {
+padding-left: 20%;
+padding-right: 20%;
+
+}
+
+
+.whatido,.whatdoiknow,.whatiwantinaworkspace {
   text-align: center;
   display: inline;
   font-family: 'Inter';
-  font-size: 50px;
+  font-size: 40px;
   border: solid;
   border-width: thick;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 200px;
   padding-right: 200px;
-
+  
 
 }
 
 
-.whatidotext,.whatdoiknowtext {
-  padding-top: 30px;
-  margin-bottom: 60px;
+.whatidotext,.whatdoiknowtext,.whatiwantinaworkspacetext {
+  padding-top: 50px;
+  margin-bottom: 80px;
   
 }
 
@@ -75,7 +94,7 @@ body {
   padding-top: 60px;
   position: relative;
   background: #000;
-  height: 1000px;
+  height:1000px;
   top: 100vh;
    
   
