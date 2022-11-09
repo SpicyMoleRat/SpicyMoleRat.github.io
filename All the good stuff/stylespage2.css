@@ -1,25 +1,39 @@
 @import url('https://rsms.me/inter/inter.css');
 
+html {    
+ background-color: white;
+  
+}
+
 body {
     background-color: black;
     font-family: 'Roboto Mono', sans-serif;
     letter-spacing: -1px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
-    margin-top: 100px;
+    margin-top: 10px;
+    color:white;
+    height:1000px;
     
 
 }
 
-.hobbies {
+
+.interests {
     font-family: 'Inter';
     display: inline-block;
-    font-size: 20px;
+    font-size: 40px;
     border: solid;
     border-width: thick;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 100px;
     padding-right: 100px
+    
+}
+
+.hobbies{
+    
 }
 
 
