@@ -45,11 +45,7 @@ body {
   bottom: 0;
 }
 
-.whatiwantinaworkspace {
-  padding-left:10%;
-  padding-right:10%;
-  
-}
+
 
 .whatdoiknow{
   padding-left: 18%;
@@ -64,7 +60,7 @@ padding-right: 20%;
 }
 
 
-.whatido,.whatdoiknow,.whatiwantinaworkspace {
+.whatido,.whatdoiknow {
   text-align: center;
   display: inline;
   font-family: 'Inter';
@@ -80,7 +76,7 @@ padding-right: 20%;
 }
 
 
-.whatidotext,.whatdoiknowtext,.whatiwantinaworkspacetext {
+.whatidotext,.whatdoiknowtext {
   padding-top: 50px;
   margin-bottom: 80px;
   
@@ -92,10 +88,10 @@ padding-right: 20%;
   justify-content: center;
   align-items: flex-end;
   padding-bottom: 50px;
-  padding-top: 60px;
+  padding-top: 90px;
   position: relative;
   background: #000;
-  height: 1100px;
+  height: 800px;
   top: 100vh;
    
   
@@ -115,8 +111,8 @@ padding-right: 20%;
 }
 
 
-.burton {  
-  display: flex;
+.burton, .burton2{  
+  display: inline-block;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -125,6 +121,7 @@ padding-right: 20%;
   font-family: inherit;
 
 }
+
 
 .fill {
   font-size: 20px;
