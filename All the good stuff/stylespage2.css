@@ -13,7 +13,7 @@ body {
     font-size: 20px;
     margin-top: 10px;
     color:white;
-    height: 6950px;
+    height: 7050px;
     
 
 }
@@ -103,3 +103,47 @@ body {
 .endingcomment {
     padding-top: 70px;
 }
+
+.burton, .burton2{  
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: inherit;
+  
+  }
+  
+  
+  .fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 100;
+  }
+  
+  .fill::after {
+    content: "";
+    background-color: #fdfbfb;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.4s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  
