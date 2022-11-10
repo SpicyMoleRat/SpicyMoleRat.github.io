@@ -13,13 +13,13 @@ body {
     font-size: 20px;
     margin-top: 10px;
     color:white;
-    height:1000px;
+    height: 6950px;
     
 
 }
 
 
-.interests {
+.interests,.photosheader {
     font-family: 'Inter';
     display: inline-block;
     font-size: 40px;
@@ -32,8 +32,74 @@ body {
     
 }
 
-.hobbies{
+.image1 {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
     
 }
 
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
+}
+
+
+.image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.endingcomment {
+    padding-top: 70px;
+}
