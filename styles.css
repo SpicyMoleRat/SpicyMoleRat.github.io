@@ -22,7 +22,7 @@ body {
   font-family: Roboto Mono;
   font-size: xx-large;
   color:#000;
-  background: url(images%20/mountians%203.jpg) no-repeat center center;
+  background: url(mountians%203.jpg) no-repeat center center;
   justify-content: center;
   background-size: cover;
   flex-direction: column;
